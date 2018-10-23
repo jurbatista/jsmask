@@ -7,5 +7,5 @@ function mascara(mascara, string){
     for(i = 0; i < string.length ; i++){
         r[r.indexOf("#")] = string[i] ;
     }
-    return r.join("");  
+    return r.join(""); 
   }
